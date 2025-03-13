@@ -1,0 +1,123 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #F6E1C3; /* Soft sandy background */
+    color: #3B0A45; /* Deep purple text */
+    line-height: 1.6;
+}
+
+h1, h2, h3 {
+    color: #FF6F61; /* Sunset Red */
+}
+
+/* Container for centered content */
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header Section */
+header {
+    background: linear-gradient(to right, #FF6F61, #FF9F6D, #FFD46E); /* Sunset gradient */
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 3rem;
+    color: #FFFFFF; /* White text on header */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* Navigation Bar */
+nav {
+    background-color: #3B0A45; /* Deep purple navigation */
+    text-align: center;
+    padding: 10px 0;
+}
+
+nav a {
+    color: #FFD46E; /* Warm yellow links */
+    text-decoration: none;
+    font-size: 1.2rem;
+    margin: 0 20px;
+    padding: 10px;
+}
+
+nav a:hover {
+    background-color: #FF6F61; /* Sunset Red on hover */
+    border-radius: 5px;
+}
+
+/* Main Content Area */
+.main-content {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.article {
+    width: 70%;
+    background-color: #FFFFFF; /* White background for content */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar {
+    width: 25%;
+    background-color: #F3C8B5; /* Soft peach sidebar */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer Section */
+footer {
+    background-color: #3B0A45;
+    color: #FFD46E;
+    text-align: center;
+    padding: 10px;
+    margin-top: 50px;
+}
+
+footer p {
+    font-size: 1rem;
+}
+
+/* Buttons */
+button {
+    background-color: #FF9F6D; /* Sunset Orange */
+    color: #3B0A45;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+button:hover {
+    background-color: #FF6F61; /* Sunset Red on hover */
+}
+
+/* Old-school box layout */
+.old-school-box {
+    border: 3px solid #FF6F61; /* Sunset red border */
+    padding: 20px;
+    margin: 20px 0;
+    background-color: #FFF0D4; /* Light yellow background for box */
+    font-size: 1.1rem;
+    color: #3B0A45;
+}
+
+.old-school-box h2 {
+    color: #FF9F6D;
+}
+

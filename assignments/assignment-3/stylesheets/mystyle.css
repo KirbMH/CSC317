@@ -1,0 +1,239 @@
+
+html{
+    background-image: url(https://64.media.tumblr.com/b796d8ac8710852092700a173959490a/ad389d711accea79-c5/s250x400/b1fe03170a0f72fb942996d827b2b3cd689dd162.gifv);
+}
+
+
+@font-face {
+    font-family: Font1;
+    src: url(../fonts/RockShowWhiplash-jV1G.ttf);
+}
+@font-face{
+    font-family: Font2;
+    src: url(../fonts/WreakHavoc-15ej.ttf);
+}
+@font-face{
+    font-family: Font3;
+    src: url(../fonts/Jerami-L3r4y.otf);
+}
+@font-face{
+    font-family: Font4;
+    src: url(../fonts/OpendyslexicRegular-nRLZ0.otf);
+}
+
+
+
+img{
+    width: 30%;
+
+}
+
+header{
+    display: flex;
+    justify-content: space-evenly;
+    border: 8px solid;
+    background-color: rgb(165, 100, 255);
+}
+
+header #profile_photo{
+    order: 0;
+    flex-shrink: 0;
+    max-width: 150px;
+    max-height: 150px;
+    min-width: 150px;
+    margin: 5px;
+
+    border-radius: 10%;
+    border: solid rgb(14, 0, 0);
+
+}
+
+header h1{
+    text-align: center;
+    margin-top: 30px;
+
+    color: rgb(0, 0, 0);
+    font-family: Font1;
+    font-size: 30px;
+    
+}
+
+h2{
+    color: rgb(146, 136, 255);
+    background-color: black;
+    padding: 10px;
+    font-family: Font2;
+}
+h3{
+    color: rgb(0, 0, 0);
+    font-family: Font2;   
+}
+
+h4{
+    color: rgb(0, 0, 0);
+    font-family: Font3;
+}
+
+p, li, label{
+    color: rgb(255, 255, 255);
+    font-family: Font4;
+    font-size: 14px;
+}
+
+#insta_logo{
+    order: 3;
+    width: 100px;
+    
+    flex-shrink: 0;
+    text-align: right;
+    align-content: end;
+}
+
+
+
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(0, 0, 0);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+}
+
+nav a {
+    font-family: Font2;
+    color: rgb(34, 40, 218);
+}
+
+a:hover{
+    animation: color-change 1s infinite;
+    cursor: url(https://64.media.tumblr.com/5d098d841e9a1f46ba4c37d22b5d1b78/fa4e4fe3b62147f9-5e/s75x75_c1/90f2bab7ce8e0b92f55ab777d1ae26948284683a.gifv), auto;
+
+}
+
+a:visited{
+    color: rgb(34, 40, 218);
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section{
+    display: flex;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.982);
+    
+    max-width: 90%;
+    padding: 20px;
+}
+
+#About p{
+   padding-left: 10px; 
+   margin-top: 30px;
+}
+
+#About img{
+    margin: 10px;
+    border: solid;
+    border-width: 20px;
+    min-width: 300px;
+}
+
+#Education{
+    width: 90%;
+}
+
+
+#Education table{
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    border: dotted;
+}
+
+
+
+#Education img{
+    min-width: 50px;
+}
+
+tr{
+    font-family: Font4;
+    font-size: 12px;
+}
+
+
+#Qualifications h3{
+
+    text-align: center;
+}
+
+#Experience{
+    width: 90%;
+}
+
+#Projects{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+
+
+article{
+    border: solid;
+    padding: 20px;
+    margin-bottom: 10px;
+    background-color: rgba(106, 255, 121, 0.496);
+}
+
+iframe{
+    width: 90%;
+    height: 500px;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-top: 20px;
+
+}
+
+
+#Contact{
+    gap: 20px;
+}
+
+#Contact h3{
+    color: white;
+}
+
+form{
+    padding: 20px;
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+
+
+    cursor: url(https://64.media.tumblr.com/5d098d841e9a1f46ba4c37d22b5d1b78/fa4e4fe3b62147f9-5e/s75x75_c1/90f2bab7ce8e0b92f55ab777d1ae26948284683a.gifv), auto;
+}
+
+@keyframes color-change {
+    0% { color: red; }
+    20% { color: rgb(255, 225, 0); }
+    40% { color: rgb(0, 255, 8); }
+    60% { color: rgb(0, 21, 255); }
+    80% { color: rgb(255, 0, 242); }
+    100% { color: rgb(255, 0, 98); }
+  }
+
