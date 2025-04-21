@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Calculator</title>
+    <link rel="stylesheet" href="../assignment-4/calc.css">
+</head>
+<body>
+    <h1>Calculator</h1>
+
+    <section class="keypad">
+        <input id="display" readonly>
+        <section class="operators">
+            <div onclick="ClearDisplay()">AC</div>
+            <div onclick="AddToDisplay('/')">/</div>
+            <div onclick="AddToDisplay('*')">*</div>
+            <div onclick="AddToDisplay('+')">+</div>
+            <div onclick="AddToDisplay('-')">-</div>
+            <div onclick="AddToDisplay('%')">%</div>
+        </section>
+        <section class="numbers">
+            <div onclick="AddToDisplay('1')" id="1">1</div>
+            <div onclick="AddToDisplay('2')">2</div>
+            <div onclick="AddToDisplay('3')">3</div>
+            <div onclick="AddToDisplay('4')">4</div>
+            <div onclick="AddToDisplay('5')">5</div>
+            <div onclick="AddToDisplay('6')">6</div>
+            <div onclick="AddToDisplay('7')">7</div>
+            <div onclick="AddToDisplay('8')">8</div>
+            <div onclick="AddToDisplay('9')">9</div>
+            <div onclick="AddToDisplay('0')">0</div>
+            <div onclick="AddToDisplay('.')">.</div>
+            <div onclick="calculate()">=</div>
+        </section>
+    </section>
+
+    <script src="calculator.js"></script>
+
+</body>
+</html>

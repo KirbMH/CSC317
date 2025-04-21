@@ -1,0 +1,98 @@
+
+
+body{
+    display: grid; 
+    text-align: center;
+
+    background-color: rgb(134, 133, 133);
+
+    padding:50px;
+}
+
+
+input{
+    background-color: rgb(62, 62, 62);
+    color: white;
+    border: none;
+
+    margin: auto;
+    display: block;
+    text-align: center;
+
+    align-content: center;
+    width: 300px;
+    height: 60px;
+
+    border-radius: 20px;
+
+    font-size: 2rem;
+}
+
+
+.keypad {
+    display: grid;
+   
+    gap: 5px;
+    background-color: rgb(95, 95, 95);
+
+    border-radius: 50px;
+
+    max-width: 300px;
+    margin: auto;
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+div {
+    background-color: rgb(232, 177, 109);
+
+    margin: auto;
+    display: block;
+
+    width: 5rem;
+    height: 5rem;
+
+    border-radius: 50px;
+    border: none;
+    text-align: center;
+
+    font-size: 2rem;
+
+    color: rgb(0, 0, 0);
+    padding: 10px;
+}
+
+#answer, #input{
+    background-color: aliceblue;
+}
+
+
+.operators{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+    padding: 5px;
+}
+
+.numbers{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+    padding: 5px;
+}
+
+.numbers:active{
+    color: brown;
+}
+
+.numbers div:hover, .operators div:hover{
+    background-color: rgb(204, 145, 73);
+}
+
+.numbers div:active, .operators div:active{
+    background-color: brown;
+}
+
